@@ -131,7 +131,6 @@ section {
 
 .button-buy {
   margin-top: 50px;
-  margin-right: 20px;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1881,11 +1880,11 @@ section {
 .hero {
   overflow-x: hidden;
   padding: 0;
-  /* border : 5px solid black */
+  border : 2px solid #081C72;
 }
 
 .welcome {
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .hero .carousel {
@@ -2851,7 +2850,7 @@ section {
   /* padding: 75px; */
   height: 100%;
   /* position: absolute; */
-  transform: translate(0%, 30%);
+  transform: translate(0%, 24%);
   z-index: -1;
 }
 
@@ -2882,6 +2881,8 @@ section {
 .vert-line {
   /* color: white; */
   margin-top: 2px;
-  border-left: 2px solid white;
+  width: 2px;
+  background-color: white;
+  /* border-left: 2px solid white; */
   height: 30px;
 }
