@@ -2642,6 +2642,7 @@ section {
   color: #fff;
   background: url("../img/Bg-homepage.png") top center no-repeat, linear-gradient(88deg, #081C72, black 90%);;
   background-size: cover;
+  background-color: linear;
   font-size: 14px;
   padding: 80px 0 60px 0;
   position: relative;
@@ -2885,4 +2886,66 @@ section {
   background-color: white;
   /* border-left: 2px solid white; */
   height: 30px;
+}
+
+.tokenomics {
+  background-image: url(../img/Bg-homepage.png), linear-gradient(88deg, #081C72, black 90%);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: linear;
+  position: relative;
+}
+
+.tok-info {
+  border-radius: 25px;
+  border: #000 solid;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.pg-1 span {
+  position: absolute;
+  transform: translate(200%, -60%);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.pg-2 span {
+  position: absolute;
+  transform: translate(600%, -60%);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.pg-3 span {
+  position: absolute;
+  transform: translate(900%, -60%);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.progress-bar {
+  background-color: #081C72;
+}
+
+@media (max-width: 991px) {
+  .progress-wrap h3 {
+    font-size: smaller;
+  }
+  .pg-1 span, .pg-2 span, .pg-3 span {
+    font-size: 20px;
+  }
+}
+.prog-sub {
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .token-percentage {
+    margin-top: 50px;
+  }
 }
